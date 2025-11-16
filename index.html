@@ -28,24 +28,37 @@
 <body>
 
 <!-- HERO SECTION -->
-<section class="h-screen flex flex-col justify-center px-10 bg-gradient-to-br from-[#0f1115] to-[#1b1f27]">
-  <h1 class="text-4xl md:text-6xl font-bold" data-aos="fade-up">
-    Hi, I'm <span class="text-cyan-400">Virendra M. Arekar</span>
-  </h1>
+<section class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-10 py-20 bg-gradient-to-br from-[#0f1115] to-[#1b1f27]">
 
-  <h2 class="text-xl md:text-2xl mt-3 text-cyan-300" data-aos="fade-up" data-aos-delay="200">
-    Senior Full Stack Developer | MERN | Spring Boot | GoLang | DevOps
-  </h2>
+  <!-- PROFILE IMAGE -->
+  <div class="flex justify-center" data-aos="zoom-in">
+    <img 
+      src="virendra-profile.jpg" 
+      alt="Virendra M. Arekar"
+      class="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-cyan-400 hover:scale-105 transition duration-500"
+    />
+  </div>
 
-  <p class="max-w-xl mt-5 opacity-80" data-aos="fade-up" data-aos-delay="300">
-    Results-driven Full Stack Developer with 9+ years of experience in MERN stack,
-    SpringBoot, GoLang & DevOps. Expert in scalable system design, CI/CD, AWS,
-    microservices, Docker, Kubernetes & modern frontend frameworks.
-  </p>
+  <!-- TEXT -->
+  <div>
+    <h1 class="text-4xl md:text-6xl font-bold" data-aos="fade-up">
+      Hi, I'm <span class="text-cyan-400">Virendra M. Arekar</span>
+    </h1>
 
-  <a href="#skills" class="mt-8 w-fit bg-cyan-400 hover:bg-cyan-300 text-black px-6 py-3 rounded-full font-semibold transition" data-aos="fade-up" data-aos-delay="500">
-    Explore My Profile
-  </a>
+    <h2 class="text-xl md:text-2xl mt-3 text-cyan-300" data-aos="fade-up" data-aos-delay="200">
+      Senior Full Stack Developer | MERN | GoLang | Spring Boot | DevOps
+    </h2>
+
+    <p class="max-w-xl mt-5 opacity-80" data-aos="fade-up" data-aos-delay="300">
+      Results-driven Full Stack Developer with 9+ years of experience in building scalable 
+      applications, microservices, mobile apps, CI/CD pipelines, cloud deployments, 
+      and enterprise digital transformations.
+    </p>
+
+    <a href="#skills" class="mt-8 inline-block bg-cyan-400 hover:bg-cyan-300 text-black px-6 py-3 rounded-full font-semibold transition" data-aos="fade-up" data-aos-delay="500">
+      Explore My Profile
+    </a>
+  </div>
 </section>
 
 <!-- SKILLS -->
